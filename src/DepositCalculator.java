@@ -29,7 +29,7 @@ public class DepositCalculator {
 
         System.out.println("Введите срок вклада в годах:");
         period = scanner.nextInt();
-        System.out.println("Выберите тип вклада, 1 - вклад с обычным процентом, 2 - вклад с капитализацией:");
+        System.out.println("Выберите тип вклада, 1 - вклад с обычным процентом, 2 - вклад с капитализацией:"); //я добавил переход на новую строку перед каждым вариантом, может удобно, а может нет
         action = scanner.nextInt();
 
         double depositResult = 0;
